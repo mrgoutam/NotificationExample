@@ -19,6 +19,7 @@ import android.os.SystemClock;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -407,6 +408,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void notificationGroup(View view) {
+        Toast.makeText(this, "CF: Coming soon", Toast.LENGTH_SHORT).show();
+    }
 
+    public void nofificationChannelGroup(View view) {
+        Toast.makeText(this, "CF: Coming soon", Toast.LENGTH_SHORT).show();
+    }
+
+    public void notificationChannelSetting(View view) {
+        Toast.makeText(this, "CF: Coming soon", Toast.LENGTH_SHORT).show();
+    }
+
+    public void deleteNotificationChannel(View view) {
+        Toast.makeText(this, "CF: Coming soon", Toast.LENGTH_SHORT).show();
+    }
+
+    public void customNotification(View view) {
+        Toast.makeText(this, "CF: Coming soon", Toast.LENGTH_SHORT).show();
     }
 }
